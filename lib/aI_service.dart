@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class AIService {
   static const String baseUrl = "https://api.aimlapi.com";
-  static const String apiKey = "79372748571e493eac9ca7612c65201a";
+  static const String apiKey = "YOUR_API_KEY_HERE";
 
 static Future<String> getResponse({
     required String model,
